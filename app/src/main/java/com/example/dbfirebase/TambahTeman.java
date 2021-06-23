@@ -2,6 +2,7 @@ package com.example.dbfirebase;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -40,6 +41,9 @@ public class TambahTeman extends AppCompatActivity {
                    tlp = edtelpon.getText().toString();
 
                    submitData(new Teman(nm,tlp));
+
+                    Intent i = new Intent(TambahTeman.this,MainActivity.class);
+                    startActivity(i);
 
                 }else{
                     Toast.makeText(TambahTeman.this,"data tersimpan",Toast.LENGTH_LONG).show();

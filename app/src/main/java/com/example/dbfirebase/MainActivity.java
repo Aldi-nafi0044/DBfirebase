@@ -30,7 +30,8 @@ public class MainActivity extends AppCompatActivity {
         lihatbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent i = new Intent(MainActivity.this,LihatTeman.class);
+                startActivity(i);
             }
         });
     }
