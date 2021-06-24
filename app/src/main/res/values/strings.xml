@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">DBfirebase</string>
+    <string name="edit_teman">Edit Teman</string>
+    <string name="key">Key :</string>
+    <string name="nama_teman">Nama Teman</string>
+    <string name="telpon_teman">Telpon Teman</string>
 </resources>
